@@ -1,0 +1,14 @@
+1. Copy the data to be diagnosed into the excel file "Data". 
+Make sure to respect the order of the dissolved gases: H2, CH4, C2H6, C2H4 and C2H2. 
+After the concentrations of the dissolved gases, enter the label of the samples by respecting the codification indicated.
+2. Save the changes in the excel file "Data" and close.
+3. Open the Matlab code of the method (Code_Hybrid_method_IEEE.m).
+4. In the Matlab file of the method code, update the following information:
+N : the number of samples (line 10)
+n1 : the information of the reading of the H2 in the excel file (line 13)
+n2 : the information of the reading of the CH4 in the excel file (line 14)
+n3 : the information of the reading of the C2H6 in the excel file (line 15)
+n4 : the information of the reading of the C2H4 in the excel file (line 16)
+n5 : the information of the reading of the C2H2 in the excel file (line 17)
+the information of the writing of the diagnostic results in the excel file (line 1342)
+5. Run the code
